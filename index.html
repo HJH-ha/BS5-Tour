@@ -13,8 +13,141 @@
     <script defer src="js/bootstrap.bundle.min.js"></script>
 
     <title>오로라투어 - Travel with us</title>
-    <style></style>
+    <style>
+      .c-item {
+        height: 480px;
+      }
+
+      .c-img {
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.6);
+      }
+    </style>
   </head>
 
-  <body></body>
+  <body>
+    <!-- 네브바 시작 -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="me-1" height="30px" src="images/aurora.png" alt="" />
+          오로라투어
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- 매뉴 -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">패키지</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- 네브바 끝 -->
+    <!-- 캐로셀 섹션 시작 -->
+    <section id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">이전</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#hero-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">다음</span>
+        </button>
+        <div class="carousel-item active c-item">
+          <img
+            src="images/pic1.jpg"
+            class="d-block w-100 c-img"
+            alt="Slide 1"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">Discover the hidden world</p>
+            <h1 class="display-1 fw-bolder text-capitalize">
+              The Aurora Tours
+            </h1>
+            <button class="btn btn-primary px-4 py-2 fs-5 mt-5">
+              투어 예약
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img
+            src="images/pic2.jpg"
+            class="d-block w-100 c-img"
+            alt="Slide 2"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">THE SEASON HAS ARRIVED</p>
+            <h1 class="display-1 fw-bolder text-capitalize">
+              3 Available Tours
+            </h1>
+            <button class="btn btn-primary px-4 py-2 fs-5 mt-5">
+              투어 예약
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item c-item">
+          <img
+            src="images/pic3.jpg"
+            class="d-block w-100 c-img"
+            alt="Slide 3"
+          />
+          <div class="carousel-caption top-0 mt-4">
+            <p class="mt-5 fs-3 text-uppercase">DESTINATION ACTIVITIES</p>
+            <h1 class="display-1 fw-bolder text-capitalize">
+              Go Glacier Hiking
+            </h1>
+            <button class="btn btn-primary px-4 py-2 fs-5 mt-5">
+              투어 예약
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- 캐로셀 섹션 끝 -->
+  </body>
 </html>
