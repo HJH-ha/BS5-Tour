@@ -29,10 +29,18 @@
 
 - 📌파비콘(타이틀에 아이콘) 넣는법 <br>
 
-link rel="shortcut icon" href="#" type="image/x-icon" <br>
-헤드부분에 넣고 <br>
-href="#" # 부분에 무료아이콘에서 다운받은 사진 링크를 입력
+  link rel="shortcut icon" href="#" type="image/x-icon" <br>
+  헤드부분에 넣고 <br>
+  href="#" # 부분에 무료아이콘에서 다운받은 사진 링크를 입력
 
+> 수정내용(index.copy문서)
+
+- 캐로셀 부분의 이미지 크기를 늘림.
 - 오버뷰 섹션에 문자 strong 태그 사용으로 강조!
+- FAQ섹션 백그라운드 설정.
+- 푸터섹션에 마진을 좁혀서 FAQ섹션과 어울리게함.
+- 패키지 섹션에 사진들 img-thumbnail 태그 사용으로 보기 좋게 깔끔하게함. <br>
+  img-thumbnail이 태그는 class="card-img-top img-thumbnail" 이 태그에 사용.
+-
 
 [오로라투어](http://127.0.0.1:5500/index.html)
