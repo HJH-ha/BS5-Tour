@@ -15,7 +15,7 @@
     <title>오로라투어 - Travel with us</title>
     <style>
       .c-item {
-        height: 480px;
+        height: 800px;
       }
 
       .c-img {
@@ -104,12 +104,17 @@
             class="d-block w-100 c-img"
             alt="Slide 1"
           />
+          <!-- 캡션 자리 이미지 밑에 -->
           <div class="carousel-caption top-0 mt-4">
             <p class="mt-5 fs-3 text-uppercase">Discover the hidden world</p>
             <h1 class="display-1 fw-bolder text-capitalize">
               The Aurora Tours
             </h1>
-            <button class="btn btn-primary px-4 py-2 fs-5 mt-5">
+            <button
+              class="btn btn-primary px-4 py-2 fs-5 mt-5"
+              data-bs-toggle="modal"
+              data-bs-target="#booking-modal"
+            >
               투어 예약
             </button>
           </div>
@@ -125,7 +130,11 @@
             <h1 class="display-1 fw-bolder text-capitalize">
               3 Available Tours
             </h1>
-            <button class="btn btn-primary px-4 py-2 fs-5 mt-5">
+            <button
+              class="btn btn-primary px-4 py-2 fs-5 mt-5"
+              data-bs-toggle="modal"
+              data-bs-target="#booking-modal"
+            >
               투어 예약
             </button>
           </div>
@@ -141,7 +150,11 @@
             <h1 class="display-1 fw-bolder text-capitalize">
               Go Glacier Hiking
             </h1>
-            <button class="btn btn-primary px-4 py-2 fs-5 mt-5">
+            <button
+              class="btn btn-primary px-4 py-2 fs-5 mt-5"
+              data-bs-toggle="modal"
+              data-bs-target="#booking-modal"
+            >
               투어 예약
             </button>
           </div>
@@ -149,5 +162,59 @@
       </div>
     </section>
     <!-- 캐로셀 섹션 끝 -->
+    <!--모달창 시작 -->
+    <section class="modal fade" tabindex="-1" id="booking-modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">투어 예약</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingInput"
+                placeholder="name@example.com"
+              />
+              <!-- 폼 > 플로팅라벨에 메일 -->
+              <label for="floatingInput">이메일</label>
+            </div>
+            <!-- 폼 > 플로팅라벨에 셀렉트 -->
+            <div class="form-floating">
+              <select
+                class="form-select"
+                id="floatingSelect"
+                aria-label="Floating label select example"
+              >
+                <option selected>노르웨이 트롬쇠 - 999만원</option>
+                <option value="1">캐나다 엘로나이프 - 899만원</option>
+                <option value="2">알래스카 페어뱅크스 - 789만원</option>
+                <option value="3">핀란드 이발로 - 1299만원</option>
+              </select>
+              <label for="floatingSelect">투어를 선택하세요!</label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              취소
+            </button>
+            <button type="button" class="btn btn-primary">결재하기</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 모달창 끝 -->
   </body>
 </html>
