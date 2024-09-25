@@ -33,4 +33,6 @@ link rel="shortcut icon" href="#" type="image/x-icon" <br>
 헤드부분에 넣고 <br>
 href="#" # 부분에 무료아이콘에서 다운받은 사진 링크를 입력
 
+- 오버뷰 섹션에 문자 strong 태그 사용으로 강조!
+
 [오로라투어](http://127.0.0.1:5500/index.html)
