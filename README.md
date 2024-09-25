@@ -17,11 +17,20 @@
 - FAQ 부분은 아코디언 사용
 - 오버뷰 섹션은 container 사용하지 않고 가운데 정렬로 정리
 - 패키지 섹션에서 사진 크기가 맞지않아서 사용한 태그로는 📍 <br>
-  . 사진있는 태그의 클래스 {<br>
+  ✨.✨사진있는 태그의 클래스 {<br>
   height : 250px; <br>
   object-fit: cover; <br>
   object-position : center; <br>
   }<br>
   사용해서 크기 맞추고 정렬
+
+- 캐로셀 섹션에서 사진크기가 이상하여 css 스타일태그 이용해서
+  길이를 늘림
+
+- 📌파비콘(타이틀에 아이콘) 넣는법 <br>
+
+link rel="shortcut icon" href="#" type="image/x-icon" <br>
+헤드부분에 넣고 <br>
+href="#" # 부분에 무료아이콘에서 다운받은 사진 링크를 입력
 
 [오로라투어](http://127.0.0.1:5500/index.html)
