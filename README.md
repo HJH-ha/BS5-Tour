@@ -16,12 +16,12 @@
 - 패키지 섹션은 저번시간 블로그 섹션 이용
 - FAQ 부분은 아코디언 사용
 - 오버뷰 섹션은 container 사용하지 않고 가운데 정렬로 정리
-- 패키지 섹션에서 사진 크기가 맞지않아서 사용한 태그로는 📍
-  . 사진있는 태그의 클래스 {
-  height : 250px;
-  object-fit: cover;
-  object-position : center;  
-   }
+- 패키지 섹션에서 사진 크기가 맞지않아서 사용한 태그로는 📍 <br>
+  . 사진있는 태그의 클래스 {<br>
+  height : 250px; <br>
+  object-fit: cover; <br>
+  object-position : center; <br>
+  }<br>
   사용해서 크기 맞추고 정렬
 
 [오로라투어](http://127.0.0.1:5500/index.html)
